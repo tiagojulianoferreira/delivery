@@ -1,11 +1,14 @@
 flask
-ipython
-isort
+
+[dev]
 black
 flake8
+flask
 flask-debugtoolbar
 flask-shell-ipython
 ipdb
+ipython
+isort
 pytest
-pytest-flask
 pytest-cov
+pytest-flask
