@@ -1,2 +1,3 @@
 .venv
 delivery/__pycache__
+delivery.egg-info
