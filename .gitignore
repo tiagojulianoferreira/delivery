@@ -3,4 +3,5 @@ delivery/__pycache__
 delivery.egg-info
 .pytest_cache
 tests/__pycache__/
-delivery/ext/site/__pycache__/
+*.pyc
+*.pyo
