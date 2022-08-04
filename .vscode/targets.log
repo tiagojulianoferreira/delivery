@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug  3 13:21:48 2022
+# Make data base, printed on Thu Aug  4 15:49:22 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ MANDATORY_PATH = /usr/share/gconf/xubuntu.mandatory.path
 # environment
 VSCODE_CWD = /home/tiago/estudos/python
 # environment
-TERMINATOR_UUID = urn:uuid:4bee2e16-e81b-45dc-9898-e4a5f998e310
+TERMINATOR_UUID = urn:uuid:e45a3764-3e2c-40ef-a08e-6f33e9e80355
 # environment
 GDM_LANG = pt_BR
 # default
@@ -43,7 +43,7 @@ PWD = /home/tiago/estudos/python/delivery
 # environment
 XDG_DATA_DIRS = /usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
 # environment
-OLDPWD = /home/tiago
+OLDPWD = /home/tiago/estudos
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -89,7 +89,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 13033
+VSCODE_PID = 59859
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -97,7 +97,7 @@ XDG_SESSION_TYPE = x11
 # environment
 CLUTTER_BACKEND = x11
 # environment
-SESSION_MANAGER = local/xubuntu-tjf:@/tmp/.ICE-unix/1520,unix/xubuntu-tjf:/tmp/.ICE-unix/1520
+SESSION_MANAGER = local/xubuntu-tjf:@/tmp/.ICE-unix/4168,unix/xubuntu-tjf:/tmp/.ICE-unix/4168
 # automatic
 *F = $(notdir $*)
 # environment
@@ -217,9 +217,9 @@ GDMSESSION = xubuntu
 
 # Directories
 
-# . (device 2065, inode 4208114): 17 files, no impossibilities.
+# . (device 2065, inode 4208114): 20 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 20 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -286,13 +286,13 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 240 B / avg = 9 B
-# current buf: size = 8162 B / used = 240 B / count = 25 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 268 B / avg = 9 B
+# current buf: size = 8162 B / used = 268 B / count = 28 / avg = 9 B
 
-# strcache performance: lookups = 32 / hit rate = 21%
- 
+# strcache performance: lookups = 35 / hit rate = 20%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=0/32=0%
-# Finished Make data base on Wed Aug  3 13:21:48 2022
+# Load=28/8192=0%, Rehash=0, Collisions=0/35=0%
+# Finished Make data base on Thu Aug  4 15:49:22 2022
+ 
 
  
