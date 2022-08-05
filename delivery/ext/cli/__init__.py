@@ -2,8 +2,9 @@
 
 import click
 
+from delivery.ext.auth.models import User
+from delivery.ext.db import models  # noqa
 from delivery.ext.db import db
-from delivery.ext.site import models  # noqa
 
 
 def init_app(app):
@@ -22,6 +23,24 @@ def init_app(app):
     @app.cli.command("listar-usuarios")
     def listar_usuarios():
         """Este comando lista os usuários"""
-        click.echo("Lista os Usuários")
+        users = User.query.all()
+        click.echo(f"Listados os usuários {users}")
+        
 
+    @app.cli.command("add-user")
+    @click.option("--email", "-e")
+    @click.option("--passwd", "-p")
+    @click.option("--admin", "-a", is_flag=True, default=False)
+
+    def add_user(email, passwd, admin):
+        """Cli para adicionar novo usuário"""
+        user = User(
+            email=email,
+            passwd=passwd,
+            admin=admin
+        )
+        db.session.add(user)
+        db.session.commit()
+
+        click.echo(f"Usuário {email} adicionado com sucesso!")
 

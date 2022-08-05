@@ -9,4 +9,3 @@ ipdb
 pytest
 pytest-flask
 pytest-cov
-flask-sqlalchemy
