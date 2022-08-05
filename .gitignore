@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 # db
-delivery/delivery/delivery.db
+delivery/delivery.db
 
 delivery/.secrets.toml
